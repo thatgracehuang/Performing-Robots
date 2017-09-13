@@ -1,0 +1,9 @@
+Conway's Game of Life is a program representing cellular automata. In it, there are a collection of cells in a grid and each cell, depending on the condition of the cells around it, would change its state from alive or dead in the next turn. The rules are as follows: For a space that is 'populated':
+Each cell with one or no neighbors dies, as if by solitude.
+Each cell with four or more neighbors dies, as if by overpopulation.
+Each cell with two or three neighbors survives.
+For a space that is 'empty' or 'unpopulated'
+Each cell with three neighbors becomes populated. (from: https://bitstorm.org/gameoflife/)
+
+The only input from a player is the "seed" pattern that begins it. People have observed many patterns that emerge from this game, including static, oscillating and travelling patterns. Some seed patterns result in infinite growth, but most eventually stabilise. 
+In 2010, Andrew J Wade announced having made a self-constructing pattern that creates a copy if itself while destroying its parent. THis game is an example of how emergent properties can arise from simple rules.
