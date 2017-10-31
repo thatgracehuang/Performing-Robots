@@ -10,3 +10,5 @@ My partner Isabella and I are interested thematically in the idea of love and es
 Another possibility we were thinking about was a moving, glowing garden make of animatronics, both foam and acrylic, where touching them makes them move away or trigger responses in the software art/text.
 We also thought about some kind of fortune-telling robot, like ones found on Coney Island: https://www.google.com/search?q=fortunetelling+machine&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiEpJ3TkZrXAhUkIcAKHccEDLkQ_AUICygC&biw=1440&bih=826#imgrc=E90WXQHQaoFv0M: that can generate fortunes.
 In terms of text, we were also very interested in the idea of branching storylines, though we in general are trying to decide whether the generative-ness/autonomy of the devices could be apparent and how that could be shown to the audience.
+
+https://www.youtube.com/watch?v=SzOgsaXO7BE - Museum of Automata
