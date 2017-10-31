@@ -7,3 +7,4 @@ _______________________________________________________________
 
 Group Project 
 My partner Isabella and I are interested thematically in the idea of love and especially romantic love. We came up with a number of ways we could explore this and haven't decided on a final form of the project. We are also very interested in having a dancer interacting with the technological elements. One thing we are also particularly interested in incorporating are cassette players in the IM Lab, which would involve buying a tape deck and cassettes. 
+Another possibility we were thinking about was a moving, glowing garden make of animatronics, both foam and acrylic, where touching them makes them move away or trigger responses in the software art/text.
