@@ -14,3 +14,4 @@ In terms of text, we were also very interested in the idea of branching storylin
 https://www.youtube.com/watch?v=SzOgsaXO7BE - Museum of Automata
 https://www.youtube.com/watch?v=y5N0gQd7jJQ - Benji the Big Baby
 https://www.thestar.com/news/world/2017/10/29/sophia-the-robot-is-now-a-citizen-of-saudi-arabia.html - Just something interesting
+https://www.youtube.com/watch?v=KXFEqyXrbqU - Patchwork Girl Game
