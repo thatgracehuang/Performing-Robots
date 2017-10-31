@@ -12,3 +12,4 @@ We also thought about some kind of fortune-telling robot, like ones found on Con
 In terms of text, we were also very interested in the idea of branching storylines, though we in general are trying to decide whether the generative-ness/autonomy of the devices could be apparent and how that could be shown to the audience.
 
 https://www.youtube.com/watch?v=SzOgsaXO7BE - Museum of Automata
+https://www.youtube.com/watch?v=y5N0gQd7jJQ - Benji the Big Baby
