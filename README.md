@@ -17,7 +17,7 @@ https://www.thestar.com/news/world/2017/10/29/sophia-the-robot-is-now-a-citizen-
 https://www.youtube.com/watch?v=KXFEqyXrbqU - Patchwork Girl Game
 __________________________________________________________________________
 
-Updates about robot design 14th Nov 2017
+14th Nov 2017  - Updates about final robot design
 The design I am thinking of for my robot will involve a tape recorder mounted vertically on the back of a standard 4 leg chair. I plan to have a person sitting on the chair also, with their back to the audience for the entire performance. I imagine the chair and recorder to be the body of the robot, and it is in the role of a story-teller who then tells stories of its many loves, through a website that each person listens to on their headphones, so that each person hears a different individual branch of the story. Throughout this, the tape recorder is rolling, transcribing all of the stories at once into the cassette, to be played at the end as a kind of "master" story with all the branches. The robot will also physically embody these stories on stage somehow with moving parts attached to the chair. The person on the chair acts as a kind of magicians assistant, helping the robot to do this, this person can also act as the second person in the love stories the robot tells. Because of the branching storylines, I think it will be important to establish the robot both as the actor/storyteller fabricating the tales, and as the character that experiences them in the stories.
 
 Here is an image of an possible aesthetic I would like to draw from.
