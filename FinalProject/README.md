@@ -8,6 +8,7 @@ Casette and tapes (to arrive)
 Old printer (acquired)
 2 Stepper motors that could support weight of a tape recorder
 Stepper motor that could support  a photo frame on a stick
+small servo motor
 Photo frame (face sized)
 Medium sized fan
 Neopixel strips
@@ -17,15 +18,15 @@ Electrical junk for decoration
 Chair
 Something to move this robot around in (A trolley maybe?)
 
+Program outlines and components.
+Each of the Robot components will be stand ins for parts of a human body:
+Head - tape recorder, 2 stepper motors allow it to move like a head. At certain hard-coded time, motors go to particular positions.
+Heart/chest - Projector and printer - Projector will be connected to an isadora patch. Present visuals can be toggled between from my laptop.
+Belly - space under printer and table, will have sides that come off to reveal insides which can light up or store things. At certain hard coded time, the lights will turn on, off or flicker. A solenoid attached to one panel will release and push it open at a preset time. A servo motor holds the front facing panel shut, and a certain time, it will move 180 degrees and release the panel.
+Arm - a stick with a photoframe attached. Will frame assistant’s face when seated. Lined with neopixel strip to illuminate assistant’s face. it can move up and down with a stepper motor, working same as the head's motors. Neopixels will glow white, red or off at certain times (hard coded)
+Transmitter prop- for "internet access" (actually just a prop to explain how robot communicates online)
+
 Other notes:
-
-Robot components as stand ins for a human body:
-Head - tape recorder, stepper motors allow it to move like a head
-Heart/chest - Projector and printer
-Belly - space under printer and table, will have sides that come off to reveal insides which can light up or store things.
-Arm - a stick with a photoframe attached. Will frame assistant’s face when seated. Lined with neopixel strip to illuminate assistant’s face. can move up and down
-Transmitter- for internet access (in world of the story)
-
 Story thoughts:
 The robot was created as a story-telling program
 It fell in love with its creator
