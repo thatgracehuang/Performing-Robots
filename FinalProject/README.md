@@ -26,6 +26,8 @@ Belly - space under printer and table, will have sides that come off to reveal i
 Arm - a stick with a photoframe attached. Will frame assistant’s face when seated. Lined with neopixel strip to illuminate assistant’s face. it can move up and down with a stepper motor, working same as the head's motors. Neopixels will glow white, red or off at certain times (hard coded)
 Transmitter prop- for "internet access" (actually just a prop to explain how robot communicates online)
 
+Area of Uncertainty - how to attach head and arms to stepper motors effectively
+
 Other notes:
 Story thoughts:
 The robot was created as a story-telling program
