@@ -1,39 +1,21 @@
-Area of greatest risk and an answer to the manual override question - This would be making sure the audio on phones and the actions on stage synced up. It would be good to run all actions and text against the same clock. A phrase could also be generated that apologised before resetting to a particular point in the script. A reset switch could be built into the robots code.
-Parts List:
-Pico projector
-Chair
-Low wooden stool or small table
-Wood
-Casette and tapes (to arrive)
-Old printer (acquired)
-2 Stepper motors that could support weight of a tape recorder
-Stepper motor that could support  a photo frame on a stick
-small servo motor
-Photo frame (face sized)
-Medium sized fan
-Neopixel strips
-Electrical junk for decoration
-2 Solenoids
-4 panels for the sides of the table (cut to size)
-Chair
-Something to move this robot around in (A trolley maybe?)
+Final project writeup assignment
+•	Concept: What personality did you want to portray in your actor? How did you use technology to accomplish this?
+The personality that I wanted to portray in my actor was that of a worn-out storyteller, that was reminiscent of Samantha from the film Her, especially because Isabella and I wanted the robot to tell a story of its heartbreak. I think I most of all wanted to make a robot that embodied a performer as a character, as much as a recipient of heartbreak, a detail which unfortunately didn’t make it into the final dialogue but was a part of the backstory, of the robot starting out as a piece of story-generating software before finding love getting a body built. Because of this, I wanted to make a robot body that could be versatile like an actor’s body for physical communication. My approach, though I think there could be many others, was to attempt to map different parts of it to the anatomy of a human body. It had parts labelled in my notes and in out script as the head (the tape recorder), chest (the top compartment and printer), the belly the lower compartment) and arm(the photo frame). The solenoid panel is the exception to this, though it arguably could be considered the ribs. My intention was to make a robot that had a movement vocabulary that it could utilise and that could be played with during a show to accommodate a number of stories, though Isabella and I ultimately only told one story in the end and faked the others. 
+•	Discuss the materials and construction techniques. Why did you chose these? Knowing what you know now, would you have chosen different materials or techniques?
+For the arm, tape recorder holder, and side falling wall of my robot, I used mainly wood, screws and bolts to keep it light enough for the motor to handle but strong enough to last until the IM show. The arm used a 40RPM geared DC motor, and the falling wall was pushed using a small solenoid. I used a 2-tiered metal trolley for the main body of my robot, cardboard for the other walls, including the front facing falling wall, which was opened by an acrylic spiral and continuous rotation servo. I used neopixel strips throughout the robot, secured either with zip-ties or hot glue. The rest of the robot consists of a small printer, tape deck, cassette tapes and an optima pico projector. I would have liked to have used more found “junk” materials I could for aesthetic effect, but I am otherwise happy with the materials I chose.
+•	What did you have to learn in order to complete your project? How did you learn this? (Include links to any useful resources)
+In terms of building, I learned about how to wire and write code for controlling a solenoid. While I had already learned about using a Cap1188 sensor in another class, I learned to repurpose it into a kind of 8-button remote for my robot’s individual functions. I also got better at programming neopixel strips, especially for toggling between patterns. I also learned about how time consuming it was to build moving parts, and to build them robustly. While in my head I wanted many moving parts to make my robot seem more animated, and in my head it seemed so straightforward to make it all happen, I ultimately learned to compromise and think hard about what were the most expressive parts to keep and also what parts would be faster to build than others. I also compromised a bit by using neopixel strips as a means to animate non-moving parts, blinking where the “mouth” of the tape recorder was to indicate speech or making light move in a wave-like motion in the chest to indicate breathing. I also learned how to become a stage manager for the robot, matching cues to buttons while also adding in some improvisation. I think I also had to learn about working with a partner (Isabella), and especially in building with a collaborator’s intentions in mind and in light of what they produce not always being certain. I also learned that the best process for me was a process of prototyping and experimentation rather than having a set plan from the beginning. This process is I think much more time consuming and knowing this I would give myself probably twice as much time as I think I need, though I don’t know how feasible that is in a university context.
+•	Describe the electronic and electrical part of your project
+I used an Adafruit Protoboard to organise the wiring for the various components of the robot. This is mostly to provide power and ground for all the neopixel strips, as well as specific components for the solenoid and organization for the Cap1188 sensor’s I2C connections. The rest of the connections to the Arduino are via the motor shield connecting a 40RPM geared DC motor, 6 AA batteries in series to power it, a Continuous motion servo and 4 AA batteries to power it.
+Schematics: https://github.com/thatgracehuang/Performing-Robots/tree/master/FinalProject/Wiring%20Images 
 
-Program outlines and components.
-Each of the Robot components will be stand ins for parts of a human body:
-Head - tape recorder, 2 stepper motors allow it to move like a head. At certain hard-coded time, motors go to particular positions.
-Heart/chest - Projector and printer - Projector will be connected to an isadora patch. Present visuals can be toggled between from my laptop.
-Belly - space under printer and table, will have sides that come off to reveal insides which can light up or store things. At certain hard coded time, the lights will turn on, off or flicker. A solenoid attached to one panel will release and push it open at a preset time. A servo motor holds the front facing panel shut, and a certain time, it will move 180 degrees and release the panel.
-Arm - a stick with a photoframe attached. Will frame assistant’s face when seated. Lined with neopixel strip to illuminate assistant’s face. it can move up and down with a stepper motor, working same as the head's motors. Neopixels will glow white, red or off at certain times (hard coded)
-Transmitter prop- for "internet access" (actually just a prop to explain how robot communicates online)
-
-Area of Uncertainty - how to attach head and arms to stepper motors effectively
-
-Other notes:
-Story thoughts:
-The robot was created as a story-telling program
-It fell in love with its creator
-It’s  creator helped to create and modify its body for telling more stories (such as by recording them with a tape recorder) - which is why it looks like it does now.
-Robot continues storytelling in memory of that lover?
-Robot is made of junk parts, but tidily arranged.
-This robot is not mobile, it tells stories because it cannot move around to see the world
-Relationship with assistant is same as magician and magician’s asisstant
+•	Describe the software part of your project
+The link to my robot’s code can be found here: https://github.com/thatgracehuang/Performing-Robots/blob/master/FinalProject/Final%20Perfomance%20Files/Final_Robot_Performance.ino
+Because I had so many different actions and components to control, I used comments to separate the initialising of each component at the start. I then divided the different actions of my robot, for the 3 neopixels, solenoid, servo and dc motors into if-statements that checked for button presses on the Cap1188. Some of these button presses acted like buttons, such as making the motor move when pressed. Other buttons were coded to act like toggles, only activating the if-statement if the previous button number was not the same as a one for that if-statement. I have variables for keeping track of which pattern the neopixels should be on, and functions that program the pattern of the neopixels depending on those variables 
+•	Describe the mechanical part of your project
+To make the arm/frame move up and down I used a crank mechanism made from cut wood pieces and secured with bolts, so that as a geared motor rotated, the arm moved up and down. The front falling panel was done by placing it in a way that it would always automatically fall. A snail-shell shaped piece of acrylic holds this panel and is attached to a continuous rotation servo. When rotated to the shorter side, the front panel falls. The side panel that falls is balanced carefully on a solenoid, with metal and fabric hinges to that hold it in a careful position so the activation of the solenoid will push the panel out. 
+•	What were the 3 most difficult parts of your project?
+A difficult part of the process was writing code for so many different moving parts and keeping the code organised. Another difficult part was trying to create a moving tape recorder “head” which was why I eventually dropped the idea. Having to always think about how to do what I wanted to do while leaving the metal frame in good condition was also difficult
+•	Knowing what you know now, what would you have done differently?
+I think I would have used a different solution for the falling panel, or simply omitted it from the script because it was so inconsistent. I would also would have tried to build more moving components to replace the neopixels, even if they were just simple spinning parts made with servos and DC motors. Knowing the text better from having heard it many times would have helped me coordinate my robot more and tell a story more effectively and I would have liked to have done more rehearsals, but there were timing issues with both Isabella and I that made that difficult to schedule. If I had the time I would have built my own frame out of wood because as useful as it was to start with a pre-made metal trolley, I ended up spending a lot of time trying to problem solve ways to secure things to it without causing permanent damage, where I could have just used glue or screws. 
+Photos and videos of my robot can be found here: https://drive.google.com/open?id=1-o-VSUExp-FrXDDUBpiCJVqKhxl-i8ZF
