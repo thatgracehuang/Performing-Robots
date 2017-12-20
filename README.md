@@ -1,3 +1,8 @@
+Go To Final Project folder for project files and Write-up : https://github.com/thatgracehuang/Performing-Robots/tree/master/FinalProject
+
+
+
+
 # Performing-Robots
 [SCROLL TO BOTTOM FOR LATEST INFO]
 
